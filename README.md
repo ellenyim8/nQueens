@@ -1,0 +1,2 @@
+# nQueens
+queens chess board 
