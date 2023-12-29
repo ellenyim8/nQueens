@@ -13,16 +13,16 @@ using namespace std;
  * N_Queens
  *
  * -------------------------------------------------------
- *
+ * find all solutions, if there is one, for n queens
+ * using backtracking method. 
  * -------------------------------------------------------
- * INPUT:
+ * INPUT: n : integer 
  *
- * OUTPUT:
- *
+ * OUTPUT: vector<int> queens solutions for n queens 
+ *      using backtracking method
 ***********************************************************/
 
-
-// To find all solutions for n-queens:
+// function declarations:
 void backtrack(vector<int>& s, int curr_row, int n);
 bool construct(const vector<int>& s, int row, int n, vector<int>& candidates);
 bool is_square_safe(const vector<int>& s, int row, int col);
@@ -151,7 +151,8 @@ bool is_solution(const vector<int>& s, int n)
  *  If found all the solutions, it displays the
  *  board.
  * ---------------------------------------------------
- *      PARAMETERS:
+ *      PARAMETERS: n = size of board dimensions,
+ *          s: vector<int> 
  * ---------------------------------------------------
  *      RETURNS: none
 *******************************************************/
