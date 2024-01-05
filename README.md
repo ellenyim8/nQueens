@@ -8,9 +8,8 @@ queens chess board
 ## Sample input/output: 
 
 n = 4 
+Output: 2 solutions
 
-<img src="images/sample_input1.png" width="400" height="200"/>
+[["#", "Q", "#", "#"], ["#", "#", "#", "Q"], ["Q", "#", "#", "#"], ["#", "#", "Q", "#"]]
 
-n = 6 
-
-<img src="images/sample_input2.png" width="400" height="200"/>
+[["#", "#", "Q", "#"], ["Q", "#", "#", "#"], ["#", "#", "#", "Q"], ["#", "Q", "#", "#"]]
