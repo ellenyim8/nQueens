@@ -8,6 +8,7 @@ queens chess board
 ## Sample input/output: 
 
 n = 4 
+
 Output: 2 solutions
 
 [["#", "Q", "#", "#"], ["#", "#", "#", "Q"], ["Q", "#", "#", "#"], ["#", "#", "Q", "#"]]
