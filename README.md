@@ -9,8 +9,8 @@ queens chess board
 
 n = 4 
 
-<img src="images/sample_input1.png" width="300" height="300"/>
+<img src="images/sample_input1.png" width="400" height="200"/>
 
 n = 6 
 
-<img src="images/sample_input2.png" width="300" height="300"/>
+<img src="images/sample_input2.png" width="400" height="200"/>
