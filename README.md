@@ -9,8 +9,8 @@ queens chess board
 
 n = 4 
 
-![sample i/o 1](./images/sample_input1.png)
+![sample i/o 1](./images/sample_input1.png =50x50)
 
 n = 6 
 
-![sample i/o 2](./images/sample_input2.png) 
+![sample i/o 2](./images/sample_input2.png =50x50) 
